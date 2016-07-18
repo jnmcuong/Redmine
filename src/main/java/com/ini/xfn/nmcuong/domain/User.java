@@ -13,9 +13,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import oracle.sql.DATE;
-import oracle.sql.TIMEZONETAB;
-
 @Entity
 @Table(name="Users")
 public class User {
